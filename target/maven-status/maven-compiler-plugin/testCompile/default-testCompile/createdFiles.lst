@@ -1,0 +1,3 @@
+org\example\AmazonEmail.class
+org\example\IncorrectIdPass.class
+org\example\WithoutIdPass.class

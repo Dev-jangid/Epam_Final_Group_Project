@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-09T00:12:33 IST" name="All Test Suite" finished-at="2023-05-09T00:13:49 IST" duration-ms="75686">
+    <groups>
+    </groups>
+    <test started-at="2023-05-09T00:12:33 IST" name="test2" finished-at="2023-05-09T00:12:40 IST" duration-ms="7398">
+      <class name="org.example.WithoutIdPass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.WithoutIdPass@781a9412]" started-at="2023-05-09T00:12:33 IST" name="setup" finished-at="2023-05-09T00:12:39 IST" duration-ms="6476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getTitleFromPage()[pri:3, instance:org.example.WithoutIdPass@781a9412]" started-at="2023-05-09T00:12:39 IST" name="getTitleFromPage" finished-at="2023-05-09T00:12:40 IST" duration-ms="874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleFromPage -->
+      </class> <!-- org.example.WithoutIdPass -->
+    </test> <!-- test2 -->
+    <test started-at="2023-05-09T00:12:33 IST" name="test3" finished-at="2023-05-09T00:12:48 IST" duration-ms="15362">
+      <class name="org.example.IncorrectIdPass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.IncorrectIdPass@4bff2185]" started-at="2023-05-09T00:12:33 IST" name="setup" finished-at="2023-05-09T00:12:40 IST" duration-ms="7551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getTitleFromPage()[pri:2, instance:org.example.IncorrectIdPass@4bff2185]" started-at="2023-05-09T00:12:40 IST" name="getTitleFromPage" finished-at="2023-05-09T00:12:48 IST" duration-ms="7776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleFromPage -->
+      </class> <!-- org.example.IncorrectIdPass -->
+    </test> <!-- test3 -->
+    <test started-at="2023-05-09T00:12:33 IST" name="test1" finished-at="2023-05-09T00:13:49 IST" duration-ms="75686">
+      <class name="org.example.AmazonEmail">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.AmazonEmail@1f651cd8]" started-at="2023-05-09T00:12:33 IST" name="setup" finished-at="2023-05-09T00:12:41 IST" duration-ms="8294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getTitleFromPage()[pri:1, instance:org.example.AmazonEmail@1f651cd8]" started-at="2023-05-09T00:12:41 IST" name="getTitleFromPage" finished-at="2023-05-09T00:13:49 IST" duration-ms="67349" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@aria-labelledby='createList-announce']"}
+  (Session info: chrome=113.0.5672.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [085726f8ae9a6765ce4000118b9d5029, findElement {using=xpath, value=//input[@aria-labelledby='createList-announce']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.63, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\deepa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53027}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53027/devtoo..., se:cdpVersion: 113.0.5672.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 085726f8ae9a6765ce4000118b9d5029]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@aria-labelledby='createList-announce']"}
+  (Session info: chrome=113.0.5672.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [085726f8ae9a6765ce4000118b9d5029, findElement {using=xpath, value=//input[@aria-labelledby='createList-announce']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.63, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\deepa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53027}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53027/devtoo..., se:cdpVersion: 113.0.5672.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 085726f8ae9a6765ce4000118b9d5029
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.example.AmazonEmail.getTitleFromPage(AmazonEmail.java:53)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitleFromPage -->
+      </class> <!-- org.example.AmazonEmail -->
+    </test> <!-- test1 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests">
+    <test verbose="2" preserve-order="true" name="test2">
+        <classes>
+            <class name="org.example.WithoutID"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="test3">
+        <classes>
+            <class name="org.example.IncorrectID"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="test4">
+        <classes>
+            <class name="org.example.AddToWishList"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="test5">
+        <classes>
+            <class name="org.example.WishlistAdd"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="test6">
+        <classes>
+            <class name="org.example.LoginIntoPage"></class>
+        </classes>
+    </test>
+<test verbose="2" preserve-order="true" name="test7">
+<classes>
+    <class name="org.example.RemoveItemWishList"></class>
+</classes>
+</test>
+
+    <test verbose="2" preserve-order="true" name="test8">
+        <classes>
+            <class name="org.example.HindiLanguage"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="test9">
+        <classes>
+            <class name="org.example.LogOut"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="test10">
+        <classes>
+            <class name="org.example.SearchAndFilterPrice"></class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="test11">
+        <classes>
+            <class name="org.example.CreateNewWishList"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="test12">
+        <classes>
+            <class name="org.example.DeleteWishList"></class>
+        </classes>
+    </test>
+
+
+
+</suite>
